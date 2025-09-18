@@ -1,0 +1,13 @@
+To build and run this app, you'll need to:
+Install Android Studio if you haven't already
+Open the android folder in Android Studio
+Let the project sync and download dependencies
+Connect an Android device or use an emulator
+Click the "Run" button to build and install the app
+The app will:
+Load your website (https://adriaan29a.github.io/moby) in a WebView
+Support JavaScript and modern web features
+Handle back button navigation within the WebView
+Support zooming and responsive layout
+Work in both portrait and landscape orientations
+Would you like me to make any adjustments to the configuration or add any additional features to the app?

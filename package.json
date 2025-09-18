@@ -1,0 +1,29 @@
+{
+  "name": "moby",
+  "homepage": "https://adriaan29a.github.io/moby",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.1",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3",
+    "vite-plugin-pwa": "^1.0.1",
+    "workbox-window": "^7.3.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Node: Current File",
+            "type": "module",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/moby.js",
+            "console": "externalTerminal",
+            "cwd":"${workspaceFolder}/src/",
+           "args":["--verbose"]
+        }
+    ]
+}

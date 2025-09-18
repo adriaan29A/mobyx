@@ -1,0 +1,2 @@
+rootProject.name = "Moby"
+include ':app' 

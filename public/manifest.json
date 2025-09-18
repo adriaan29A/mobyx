@@ -1,0 +1,19 @@
+{
+  "name": "Moby",
+  "short_name": "Moby",
+  "description": "A progressive web app for Moby",
+  "start_url": "/moby/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "scope": "/moby/",
+  "icons": [
+    {
+      "src": "/moby/moby.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+} 
